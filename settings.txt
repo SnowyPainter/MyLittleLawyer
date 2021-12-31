@@ -1,0 +1,2 @@
+Folder=(v./a.db,./b.db)
+Showlog=(vTrue,False)
