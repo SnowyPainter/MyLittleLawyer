@@ -18,9 +18,9 @@ My Little Lawyer 는 Console Application이다.그리고 Newtonsoft Json 을 사
 My Little Lawyer is Console Application. and it use Newtonsoft Json. Anyway create settings.txt file at the same directory with program.exe is  
 
 ### settings.txt 문법 Syntax
-```Key=(vValue, Value2, ...)``` 가 한 문장을 차지한다. 고로, ```Folder``` Key로 클라우드 폴더(Data로 명명)의 위치를 적어놓아라. 프로그램에서 명령을 하달할때마다 기록을 보고싶지 않으면 ```Showlog``` Key를 ```False```로 설정하라.  
+```Key=(vValue, Value2, ...)``` 가 한 문장을 차지한다. 고로, ```Path``` Key로 클라우드 폴더 속 db 파일의 위치를 적어놓아라. 프로그램에서 명령을 하달할때마다 기록을 보고싶지 않으면 ```Showlog``` Key를 ```False```로 설정하라.  
 윗 예시에서 볼 수 있듯이 여러가지 값을 써놓을 수 있고, 실제 사용할 값에는 앞에 v를 적어놓아라.  
 값이 소문자 ```v```로 시작할일은 없도록 했다. v를 쓰지 않아도 되는 경우는 Value가 하나 밖에 없을 떄 이다.
 
-```Key=(vValue, Value2, ...)``` configures a line. Accordingly, write a key named ```Folder``` and set value a text that contains path of cloud folder named Data. If you don't want to see logs every single command typed, then Set value of ```Showlog``` to ```False```.
+```Key=(vValue, Value2, ...)``` configures a line. Accordingly, write a key named ```Path``` and set value a text that contains path of db file at the cloud folder. If you don't want to see logs every single command typed, then Set value of ```Showlog``` to ```False```.
 As above imply, you can write many values at one key. But you should put a lower case character ```v``` in front of value on wanting to use.
